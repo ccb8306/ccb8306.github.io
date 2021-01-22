@@ -96,11 +96,13 @@
 		<section id="about" class="about">
 			<div class="container" data-aos="fade-up">
 				<div class="row">
-					<div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content"
+					<div class="col-lg-1" data-aos="fade-right"
+						data-aos-delay="100"></div>
+					<div class="col-lg-4 pt-4 pt-lg-0 order-2 order-lg-1 content"
 						data-aos="fade-right" data-aos-delay="100">
-						<img src="assets/img/about.jpg" class="img-fluid" alt="">
+						<img width="75%" src="assets/img/조성현.jpg" class="img-fluid" alt="">
 					</div>
-					<div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left"
+					<div class="col-lg-5 order-1 order-lg-2" data-aos="fade-left"
 						data-aos-delay="100">
 						<h5>My Info</h5>
 						<h2>About Me</h2>
@@ -125,6 +127,8 @@
 						</table>
 						<p>개발에 살고 개발에 죽는 신입 개발자 조성현 입니다.</p>
 					</div>
+					<div class="col-lg-1" data-aos="fade-right"
+						data-aos-delay="100"></div>
 				</div>
 
 			</div><br>
@@ -187,65 +191,235 @@
 
 				<div class="section-title">
 					<h2>Portfolio</h2>
-					<p>Check my Portfolio</p>
+					<p>Check my Portfolio</p><hr>
+					<h5 style="color:sandybrown">이미지 클릭 시 프로젝트 페이지로 이동합니다.</h5>
 				</div>
 
 				<div class="row portfolio-container" data-aos="fade-up"
 					data-aos-delay="200">
-					<!-- cash -->
-					<div class="col-lg-4 col-md-6 portfolio-item filter-app">
-						<a class="portfolio-links" href="http://ahmo.kro.kr/cash" target="_blank">
-							<div class="portfolio-wrap">		
-									<img src="assets/img/portfolio/cash.JPG" class="img-fluid" alt="">
-								<div class="portfolio-info">
-									<h4>Cash</h4>
-									<p>[가계부]</p>
+					<!-- LMS -->
+					<div class="col-lg-6 col-md-6 portfolio-item filter-app" >
+						<div style="border: 1px solid orange;">
+							<div style="margin: 3%;">
+								<div class="portfolio-wrap">		
+									<a class="portfolio-links" href="http://ahmo.kro.kr/lms" target="_blank">
+										<img src="assets/img/portfolio/lms.PNG" class="img-fluid" alt="">
+										<div class="portfolio-info">
+											<h4>LMS</h4>
+											<div>
+											</div>
+											<div>
+												<p>프로젝트 링크</p>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div>
+									<p>
+										<h4>
+											<a class="portfolio-links" href="https://github.com/goodee-project/LMS-X" target="_blank">
+												[Github Link]
+											</a>
+										</h4>
+									</p>
 									<div>
-									</div>
-									<div>
-										<p>Spring MVC 패턴으로 제작한 가계부 프로젝트</p>
+										<h3>LMS</h3>
+										<hr>
+											<p>프로젝트 방식 : Spring MVC</p>
+											<p>사용 프로그램 : Eclipse , Spring-tool-suite , HeidiSQL</p>
+											<p>사용 언어 : Html, Java, SQL, JavaScript(jquery)</p>
+										<hr>
+										<p>
+											[프로젝트 설명]<br>
+											Spring Framework를 사용하여 처음으로 팀 프로젝트로 진행한 LMS프로젝트 입니다.<br>
+											학습관리 시스템으로써 모든걸 총괄하는 운영자, 강좌를 진행하는 강사, 강좌를 수강하는 학생이 존재하며
+											운영자의 가입만을 승인하는 관리자가 존재합니다.<br>
+											기본적인 기능으로는 수강, 출석, 과제, 최종평가 등의 학습을 관리할 수 있는 기능이 존재하며<br>
+											부가적인 기능으로는 매달 1일마다 6개월간 로그인 기록이 존재하지 않는 유저를 휴면처리하는 
+											기능을 스프링의 스케줄러 에노테이션으로 구현하였습니다.<br>
+											또한 매크로 방지를 위하여 google의 reCAPTCHA api를 이용하였으며
+											비밀번호를 잃어버렸을 경우 이메일로 임시 비밀번호를 발급해주는 기능을 위해 google SMTP를 사용하였습니다.
+										</p>
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
+					</div>
+					<!-- cash -->
+					<div class="col-lg-6 col-md-6 portfolio-item filter-app" >
+						<div style="border: 1px solid orange;">
+							<div style="margin: 3%;">
+								<div class="portfolio-wrap">		
+									<a class="portfolio-links" href="http://ahmo.kro.kr/cash" target="_blank">
+										<img src="assets/img/portfolio/cash.JPG" class="img-fluid" alt="">
+										<div class="portfolio-info">
+											<h4>Cash</h4>
+											<div>
+											</div>
+											<div>
+												<p>프로젝트 링크</p>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div>
+									<p>
+										<h4>
+											<a class="portfolio-links" href="https://github.com/ccb8306/cash" target="_blank">
+												[Github Link]
+											</a>
+										<h3>가계부</h3>
+									</p>
+									<div>
+										<h3></h3>
+										<hr>
+											<p>프로젝트 방식 : Spring MVC</p>
+											<p>사용 프로그램 : Eclipse , Spring-tool-suite , HeidiSQL</p>
+											<p>사용 언어 : Html, Java, SQL, JavaScript(jquery)</p>
+										<hr>
+										<p>
+											[프로젝트 설명]<br>
+											Spring Framework를 사용한 첫 프로젝트입니다.<br>
+											주요 기능으로는 캘린더 API를 이용한 달력으로 가계부를 구성하는 기능이 있으며
+											기본적인 기능인 로그인, 사용자 추가, 공지사항, 방명록 페이지 등이 존재합니다.<br>
+											부가적인 기능으로는 poi라이브러리를 이용한 통계용 엑셀파일을 생성할 수 있으며
+											ajax로 비동기 요청을 통해 얻은 결과를 chart.js api를 이용하여
+											차트형식으로 통계를 출력해주는 기능이 존재합니다.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 					<!-- mall -->
-					<div class="col-lg-4 col-md-6 portfolio-item filter-app">
-						<a class="portfolio-links" href="http://ahmo.kro.kr/mall" target="_blank">
-							<div class="portfolio-wrap">		
-									<img src="assets/img/portfolio/mall.JPG" class="img-fluid" alt="">
-								<div class="portfolio-info">
-									<h4>Mall</h4>
-									<p>[쇼핑몰]</p>
+					<div class="col-lg-6 col-md-6 portfolio-item filter-app" >
+						<div style="border: 1px solid orange;">
+							<div style="margin: 3%;">
+								<div class="portfolio-wrap">		
+									<a class="portfolio-links" href="http://ahmo.kro.kr/mall" target="_blank">
+										<img src="assets/img/portfolio/mall.JPG" class="img-fluid" alt="">
+										<div class="portfolio-info">
+											<h4>Mall</h4>
+											<div>
+											</div>
+											<div>
+												<p>프로젝트 링크</p>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div>
+									<p>
+										<h4>
+											<a class="portfolio-links" href="https://github.com/ccb8306/mall" target="_blank">
+												[Github Link]
+											</a>
+										</h4>
+									</p>
 									<div>
-									</div>
-									<div>
-										<p>Model 1 방식으로 제작한 쇼핑몰 웹사이트</p>
+										<h3>쇼핑몰</h3>
+										<hr>
+											<p>프로젝트 방식 : Model 1</p>
+											<p>사용 프로그램 : Eclipse, HeidiSQL</p>
+											<p>사용 언어 : Html, Java, SQL, JavaScript(jquery)</p>
+										<hr>
+										<p>
+											[프로젝트 설명]<br>
+											Model1 방식으로 만든 쇼핑몰 프로젝트 입니다.<br>
+											일반 쇼핑몰 페이지처럼 로그인, 회원가입, 마이페이지, 장바구니, 개인정보 수정, 회원탈퇴등의 사용자 기능이 존재하며
+											사용자는 물건을 구매, 취소할 수 있는 전형적인 쇼핑몰 페이지 입니다.
+										</p>
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>
 					</div>
 					<!-- mall-admin -->
-					<div class="col-lg-4 col-md-6 portfolio-item filter-app">
-						<a class="portfolio-links" href="http://ahmo.kro.kr/mall-admin" target="_blank">
-							<div class="portfolio-wrap">		
-									<img src="assets/img/portfolio/malladmin.JPG" class="img-fluid" alt="">
-								<div class="portfolio-info">
-									<h4>Mall-Admin</h4>
-									<p>[쇼핑몰 관리자 페이지]</p>
+					<div class="col-lg-6 col-md-6 portfolio-item filter-app" >
+						<div style="border: 1px solid orange;">
+							<div style="margin: 3%;">
+								<div class="portfolio-wrap">		
+									<a class="portfolio-links" href="http://ahmo.kro.kr/mall-admin" target="_blank">
+										<img src="assets/img/portfolio/malladmin.JPG" class="img-fluid" alt="">
+										<div class="portfolio-info">
+											<h4>Mall-admin</h4>
+											<div>
+											</div>
+											<div>
+												<p>프로젝트 링크</p>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div>
+									<p>
+										<h4>
+											<a class="portfolio-links" href="https://github.com/ccb8306/mall-admin" target="_blank">
+												[Github Link]
+											</a>
+										</h4>
+									</p>
 									<div>
-									</div>
-									<div>
-										<p>Model 1 방식으로 제작한 쇼핑몰을 관리하는 관리자 웹사이트</p>
+										<h3>쇼핑몰 관리자</h3>
+										<hr>
+											<p>프로젝트 방식 : Model 1</p>
+											<p>사용 프로그램 : Eclipse, HeidiSQL</p>
+											<p>사용 언어 : Html, Java, SQL, JavaScript(jquery)</p>
+										<hr>
+										<p>
+											[프로젝트 설명]<br>
+											Model1 방식으로 제작한 첫 프로젝트인 쇼핑몰 관리 페이지 입니다.<br>
+											이후 제작한 쇼핑몰 페이지를 관리하는 관리자 페이지로써, 
+											회원 관리, 카테고리 관리, 상품 관리, 주문내역 관리, 공지사항 관리등의 작업을 할 수 있습니다.
+										</p>
 									</div>
 								</div>
 							</div>
-						</a>
+						</div>							
 					</div>
-
+					<!-- Employees -->
+					<div class="col-lg-6 col-md-6 portfolio-item filter-app" >
+						<div style="border: 1px solid orange;">
+							<div style="margin: 3%;">
+								<div class="portfolio-wrap">		
+									<a class="portfolio-links" href="http://ahmo.kro.kr/employees" target="_blank">
+										<img src="assets/img/portfolio/employees.PNG" class="img-fluid" alt="">
+										<div class="portfolio-info">
+											<h4>Employees</h4>
+											<div>
+											</div>
+											<div>
+												<p>프로젝트 링크</p>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div>
+									<p>
+										<h4>
+											<a class="portfolio-links" href="https://github.com/ccb8306/employees" target="_blank">
+												[Github Link]
+											</a>
+										</h4>
+									</p>
+									<div>
+										<h3>Employees</h3>
+										<hr>
+											<p>프로젝트 방식 : JSP</p>
+											<p>사용 프로그램 : Eclipse, HeidiSQL</p>
+											<p>사용 언어 : Html, Java, SQL</p>
+										<hr>
+										<p>
+											[프로젝트 설명]<br>
+											JAVA와 JSP를 배우면서 처음으로 제작한 프로젝트입니다.<br>
+											회사내 직원, 부서, 급여 등의 정보들을 조회하거나 검색할 수 있습니다.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
-
 			</div>
 		</section>
 		
